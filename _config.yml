@@ -4,6 +4,6 @@ plugins:
 title: Accurate Hijri Calculator (AHC)
 description: A tool for calculating Islamic Hijri Calendar.
 show_downloads: false
-is_project_page: true
+github.is_project_page: true
 google_analytics:
 theme: jekyll-theme-cayman
