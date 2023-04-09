@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Halaman berbahasa Indonesia](./another-page.html).
+[Halaman berbahasa Indonesia](./another-page.html)
 
 There should be whitespace between paragraphs.
 
