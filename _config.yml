@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Accurate Hijri Calculator (AHC)
 description: A tool for calculating Islamic Hijri Calendar.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
