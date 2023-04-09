@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: Accurate Hijri Calculator (AHC)
+description: A tool for calculating Islamic Hijri Calendar
 ---
-
-## Welcome to another page
 
 _yay_
 
