@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accurate Hijri Calculator (AHC)
-description: A tool for calculating Islamic Hijri Calendar
+description: A tool for calculating Islamic Lunar Calendar
 ---
 
 _yay_
