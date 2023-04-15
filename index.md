@@ -10,12 +10,13 @@ Accurate Hijri Calculator (AHC) is a software for calculating the position and v
 
 ## Download results
 
-| year | Muharram | Shafar   | Rabiul   | Shafar   | Shafar   | Shafar   | Shafar   | Shafar   | Shafar   | Shafar   | Shafar   | Shafar   |
-|:-----|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-| 1443 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img |
-| 1444 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img |
-| 1445 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img |
-| 1446 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img |
+| year | Muharram | Shafar   | Rabiul Awwal | Rabiul Tsani | Jumadil Ula | Jumadil Akhir | Rajab | Syaban | Ramadhan | Syawal | Dzulqadah | Dzulhijjah |
+|:-----|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:----------|:---------|
+| 1442 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1443 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1444 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1445 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1446 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 
 
 ## Developer
