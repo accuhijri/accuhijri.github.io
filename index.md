@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Halaman berbahasa Indonesia](./another-page.html)
+### [Halaman berbahasa Indonesia](./another-page.html)
 
 <img src="figures/ahc_logo.png" width=220 height=200>
 
