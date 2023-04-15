@@ -17,7 +17,10 @@ Accurate Hijri Calculator (AHC) is a software for calculating the position and v
 | 1444 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 | 1445 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 | 1446 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
-
+| 1447 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1448 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1449 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1450 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 
 ## Developer
 This software is developed and maintained by [Abdurro'uf](https://aabdurrouf.github.io/), who is currently working as an astronomy researcher at the Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). 
