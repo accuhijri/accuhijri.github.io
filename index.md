@@ -70,7 +70,7 @@ This include maps of moon altitude, longitude (topocentric and geocentric), moon
 ```ruby
 hl.map_moon_altitude()
 ```
-<img src="figures/moon_alt_Syawal_1444_2042023.png" width=1000 height=500>
+<img src="figures/moon_alt_Syawal_1444_2042023.png" width=1200 height=600>
 
 ### 3. Get map of crescent vibility based on various criteria
 There are 6 criteria that are currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub.
@@ -80,18 +80,18 @@ This citeria is currently (as of 2023) used by the goverments of Indonesia, Mala
 ```ruby
 hl.map_hilal_visibility('MABIMS')
 ```
-<img src="figures/map_mabims_Syawal_1444_2042023.png" width=1000 height=500>
+<img src="figures/map_mabims_Syawal_1444_2042023.png" width=1200 height=600>
 
 #### 3.2. Crescent visibility map based on Odeh criteria
 This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy.
 ```ruby 
 hl.map_hilal_visibility('Odeh')
 ```
-<img src="figures/map_odeh_Syawal_1444_2042023.png" width=1000 height=500>
+<img src="figures/map_odeh_Syawal_1444_2042023.png" width=1200 height=600>
 
 #### 3.3. Crescent visibility map based on Terkey criteria
 This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 to be the criteria for the unified Hijri calendar.
 ```ruby
 hl.map_hilal_visibility('Turkey')
 ```
-<img src="figures/map_turkey_Syawal_1444_2042023.png" width=1000 height=500>
+<img src="figures/map_turkey_Syawal_1444_2042023.png" width=1200 height=600>
