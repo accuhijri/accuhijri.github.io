@@ -25,7 +25,7 @@ Accurate Hijri Calculator (AHC) is a software for calculating the position and v
 | 1454 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 
 ## Developer
-This software is developed and maintained by [Abdurro'uf](https://aabdurrouf.github.io/), who is currently working as an astronomy researcher at the Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). 
+This software is developed and maintained by [Abdurro'uf](https://aabdurrouf.github.io/), who is currently working as an astronomy researcher at the Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). Any feedback, inquiry, or bugs report can be sent via email to abdurroufastro@gmail.com or fabdurr1@jhu.edu. 
  
 ## Installation
 To install AHC, first clone AHC package into your desired directory (in your local machine) and then enter `ahc` directory and install. You can do it using the following commands 
@@ -51,8 +51,15 @@ conda install -c conda-forge geopandas
 ## Some features
 
 ### 1. Calculate the data of hilal (i.e., crescent)
+In this example, we will estimate the start of Syawal 1444 based on various criteria currently adopted by moslem organizations around the world. Basically, to estimate the start of a new month in the Hijri calendar, we need to know the positions (with respect to the horizon) of moon (i.e., crescent) at the time of sunset after the conjunction of the moon (i.e., new moon phase).
+
+First, we initialize the `hilal` class. 
 ```ruby
 from ahc.hilal import hilal
+
+# input the hijri year and month. 
+# since we want to get crescent (i.e., hilal) visibility maps later, so we set calculate_maps=True
+# plus_1day input agrument indicates that we want to also calculate the visibility maps for 1 day after the conjunction (i.e., new moon phase)
 
 hijri_year = 1444
 hijri_month = 10        # syawal is 10th month in Hijri calendar
@@ -61,7 +68,10 @@ plus_1day = True
 hl = hilal(hijri_year=hijri_year, hijri_month=hijri_month, calculate_maps=calculate_maps, plus_1day=plus_1day)
 ```
 
+`calculate_hilal_data` function can be used to get hilal data at sunset time on the day of conjunction. It's also possible to calculate hilal data for other days after the conjunction. List of available time-zone can be seen [here](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
+
 ```ruby
+# location and time-zone
 latitude = 3.595196
 longitude = 98.672223
 elevation = 23.0
@@ -71,12 +81,48 @@ hl.calculate_hilal_data(latitude, longitude, elevation, time_zone_str, loc_name=
 ```
 <img src="figures/hd1.png" width=700 height=500>
 
-### 2. Get maps of moon properties 
-This include maps of moon altitude, longitude (topocentric and geocentric), moon-sun altitude difference (arc of vision; ARCV), moon width, and moon age. Below is an example line of script to get the map of moon altitude.
+### 2. Get maps of moon positions 
+This include maps of moon altitude, longitude (topocentric and geocentric), moon-sun altitude difference (arc of vision; ARCV), moon width, and moon age. Below is a command to get the map of moon altitude.
+
 ```ruby
 hl.map_moon_altitude()
 ```
 <img src="figures/moon_alt_Syawal_1444_2042023.png" width=900 height=450>
+
+Get the altitude difference between the moon and sun (arc of vision; ARCV):
+
+```ruby
+hl.map_moon_sun_altitude_difference()
+```
+<img src="figures/moon_arcv_Syawal_1444_2042023.png" width=900 height=450>
+
+Get moon topocentric elongation:
+
+```ruby
+hl.map_moon_elongation()
+```
+<img src="figures/moon_elong_Syawal_1444_2042023.png" width=900 height=450>
+
+Get moon geocentric elongation:
+
+```ruby
+hl.map_moon_geocentric_elongation()
+```
+<img src="figures/moon_elong_geo_Syawal_1444_2042023.png" width=900 height=450>
+
+Get moon angular width:
+
+```ruby
+hl.map_moon_width()
+```
+<img src="figures/moon_width_Syawal_1444_2042023.png" width=900 height=450>
+
+Get moon age (from conjunction up to local sunset time) in UTC:
+
+```ruby
+hl.map_moon_age_utc_localsunset()
+```
+<img src="figures/moon_age_utc_Syawal_1444_2042023.png" width=900 height=450>
 
 ### 3. Get map of crescent vibility based on various criteria
 There are 6 criteria that are currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub.
