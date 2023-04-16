@@ -4,13 +4,13 @@ title: Accurate Hijri Calculator (AHC)
 description: A tool for calculating Islamic Lunar Calendar
 ---
 
-[Kembali](./)
+[**Kembali**](./)
 
 <img align="center" src="figures/ahc_logo.png" width=220 height=200>
 
 Accurate Hijri Calculator (AHC) adalah software yang dapat digunakan untuk menghitung posisi dan kemungkinan ketampakan hilal (kemungkinan untuk hilal berhasil dirukyat) saat waktu matahari terbenam (maghrib) setelah fase konjungsi bulan (new moon atau ijtima') telah terjadi. Hal ini digunakan sebagai patokan dalam penentuan awal bulan di kalender Hijriah. Software ini dibuat bertujuan untuk membantu umat muslim dalam memperkirakan kapan permulaan bulan hijriah, membuat kalender untuk beberapa tahun ke depan, membandingkan berbagai kriteria penentuan awal bulan hijriah, dan sebagai bahan edukasi kepada masyarakan awam tentang isu-isu terkait kalender hijriah sekarang. Software ini mengakomodasi berbagai kriteria visibilitas hilal (dalam metode hisab imkanurrukyat) yang sekarang digunakan oleh beberapa organisasi muslim di dunia. AHC pertama kami dikembangkan di tahun 2012 dan dipublikasikan di [link](https://fi.ub.ac.id/kemahasiswaan-alumni/keorganisasian/tim-astronomi-fisika/accurate-hijri-calculator-2-2/). Berbeda dengan versi partamanya yang dibuat dengan Graphical User Interface (GUI) menggunakan Delphi, sekarang AHC bertransformasi menjadi Python package yang dapat dijalankan (dipanggil) di terminal (Linux and Windows) tanpa tampilan GUI. Akan tetapi, kita bisa menjalankan AHC dengan [Jupyter notebook](https://jupyter.org/) untuk mendapatkan tampilan interaktif layaknanya GUI seperti yang dicontohkan dalam **tutorial** [berikut](https://github.com/accuhijri/ahc/blob/main/examples/ahc_1444_syawal.ipynb).     
 
-## Download results
+## Download hasil perhitungan
 
 | year | Muharram | Shafar   | Rabiul Awwal | Rabiuts Tsani | Jumadil Ula | Jumadil Akhir | Rajab | Syaban | Ramadhan | Syawal | Dzulqadah | Dzulhijjah |
 |:-----|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:---------|:----------|:---------|
@@ -26,11 +26,13 @@ Accurate Hijri Calculator (AHC) adalah software yang dapat digunakan untuk mengh
 | 1453 | calc,[img](https://drive.google.com/drive/folders/1E-v_IAhuSNxQWlGPMNu2ud6zl5vKU0Je?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1XT9vG9aohKLAn0WVRPuEEqpBysQUw6IJ?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1Dxf7FbxCvCLisKeeI9QOEIL_iM_-F15h?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1ClA3d_cooE_IXlPSyxiw-LtteRGmKfH3?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1vs10H-FqseyNTuysC21kCSTt22nld9V5?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1qqIn78FpE_Q-BBQfIHzbExlrV0188VjZ?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/12EqeWG_ySenb66NN1w4zwnNojz7_h2Nr?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1Q_S7pc3qp-aX8QdYGFuLAOV2df6Be7sQ?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1W7Q-b7r3tsBe19K3lMuWgc39J-unvl6r?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1ZkOlWtPs8knpDmSntHohzdRLfXD0Iubt?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1SIG3SVkIugrrEm3g00Pfms6foHXPrUHV?usp=share_link)  | calc,[img](https://drive.google.com/drive/folders/1S2Kza-8cdp6jfxTlCX0BD-3zpvPvaJdG?usp=share_link) |
 | 1454 | calc,[img](https://drive.google.com/drive/folders/1oP4BqkNDriDC2KYv73-6lSHmMhuCA4BR?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1wPMWOU8GBcI_mHOuTS59K_Rbp7jJSZqw?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1ZCw39WhTF0vGJBA1_Nyw0sh238RJIYfv?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1XcwM1rkirT3FcBpMUyf6L1qi9Df6IMIJ?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/15TTi2J7KmciI4ihybc3HUuvJnbvmRYPl?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1t_G_NS25vjOgdgZ05bFXshKivvXNa82Y?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1mkKisnSfr-wIgSmi7ME7tPYenVBJB7wh?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1oc5X0thtd2_kevGpCu8S3Vjh_LABtow0?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1RinyigVARWae9GRsYS-VoHTBZkvoO88g?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1vkg_t6TFn4TcXZfUXTHZvWZRap8I6f_Z?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/19GtJfguhdlob1WX1IyiQW5kUnzm58_Fs?usp=share_link)  | calc,[img](https://drive.google.com/drive/folders/1U3E5UMiNWJ--gfBZYFsHgekaye7iaO3q?usp=share_link) |
 
-## Developer
-This software is developed and maintained by [Abdurro'uf](https://aabdurrouf.github.io/), an Indonesian astronomer who is currently working as a researcher at the Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). Any feedback, inquiry, or bugs report can be sent via email to abdurroufastro@gmail.com or fabdurr1@jhu.edu. 
+## Developer 
+
+Software ini dikembangkan oleh [Abdurro'uf](https://aabdurrouf.github.io/), seorang astronom indonesia yang sekarang bekerja sebagai peneliti di Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). Saran, pertanyaan, atau laporan bugs dapat dikirimkan melalui email ke abdurroufastro@gmail.com or fabdurr1@jhu.edu. 
  
 ## Installation
-To install AHC, first clone AHC package into your desired directory (in your local machine) and then enter `ahc` directory and install. You can do it using the following commands 
+
+Untuk menginstall AHC, pertama clone AHC package ke folder (directory) yang anda inginkan (di laptop/komputer). Setelah itu masuk ke folder `ahc` dan lakukan penginstallan. Anda bisa melakukanya dengan mengikuti commands berikut.
 
 ```
 git clone https://github.com/accuhijri/ahc.git
@@ -38,24 +40,26 @@ cd ahc
 python -m pip install .
 ```
 
-To use AHC, you need to put `de421.bsp` file in wherever directory you are working. This file is included in the `ahc` package and can be copied to your working directory. An alternative way would be to download this file from NASA website using the following command
+Untuk dapat menggunakan AHC, anda perlu menempatkan file `de421.bsp` di directory tempat kamu bekerja. File ini sudah termasuk dalam `ahc` package dan dapat anda copy ke directory tersebut. Alternatif lain bisa mendownload file tersebut langsung dari website NASA dengan menggunakan command berikut. 
 
 ```
 wget https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de421.bsp
 ```
 
-Last but not least, you need to install [geopandas](https://geopandas.org/en/stable/) if you intend to produce crescent visibility map with AHC. To install it, you can use the following command, assuming you have `conda` installed in your machine.
+Terakhir, anda perlu menginstall [geopandas](https://geopandas.org/en/stable/) jika anda ingin membuat peta vibilitas hilal menggunakan AHC. Untuk menginstalnya, anda bisa menggunakan command berikut, dengan asumsi anda telah mempunyai `conda` terinstal di komputer anda.  
 
 ```
 conda install -c conda-forge geopandas
 ```
 
-## Some features
+## Beberapa fitur
 
 ### 1. Calculate the data of hilal (i.e., crescent)
-In this example, we will estimate the start of Syawal 1444 based on various criteria currently adopted by moslem organizations around the world. Basically, to estimate the start of a new month in the Hijri calendar, we need to know the positions (with respect to the horizon) of moon (i.e., crescent) at the time of sunset after the conjunction of the moon (i.e., new moon phase).
 
-First, we initialize the `hilal` class. 
+Di contoh ini, kita akan mencoba memperkirakan kapan awal bulan Syawal 1444 hijriah dengan menggunakan beberapa kriteria yang diadopsi oleh beberapa organisasi islam di seluruh dunia. Pada dasarnya untuk memperkirakan awal bulan hijriah kita perlu tahu posisi bulan terhadap horizon (ufuk) saat waktu matahari terbenam (maghrib) setelah terjadinya konjungsi (ijtima').
+
+Pertama-tama, kita memanggil class `hilal`.
+
 ```ruby
 from ahc.hilal import hilal
 
@@ -70,7 +74,7 @@ plus_1day = True
 hl = hilal(hijri_year=hijri_year, hijri_month=hijri_month, calculate_maps=calculate_maps, plus_1day=plus_1day)
 ```
 
-`calculate_hilal_data` function can be used to get hilal data at sunset time on the day of conjunction. It's also possible to calculate hilal data for other days after the conjunction by adjusting `delta_day` input parameter. List of available time-zone can be seen [here](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
+Kemudian kita bisa menngunakan fungsi `calculate_hilal_data` untuk mendapatkan data hilal waktu maghrib di hari terjadinya konjungsi (lokal). Kita juga bisa menghitung data hilal untuk hari-hari berikutnya dengan mengatur masukan `delta_day` pada fungsi tersebut. Untuk menggunakan fungsi ini kita perlu memasukkan koordinat lokasi dan time-zone. Daftar time-zone yang diterima oleh AHC dapat dilihat di [sini](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
 
 ```ruby
 # location and time-zone
@@ -83,75 +87,84 @@ hl.calculate_hilal_data(latitude, longitude, elevation, time_zone_str, loc_name=
 ```
 <img src="figures/hd1.png" width=700 height=500>
 
-### 2. Get maps of moon positions 
-This include maps of moon altitude, longitude (topocentric and geocentric), moon-sun altitude difference (arc of vision; ARCV), moon width, and moon age. Below is a command to get the map of moon altitude.
+### 2. Mendapatkan peta posisi bulan 
+
+Selain mendapatkan data hilal, kita juga bisa mendapatkan peta posisi bulan saat maghrib, yang meliputi peta ketinggian bulan, elongasi (geocentris dan topocentris), perbedaan tinggi bulan dan matahari (arc of vision; ARCV), ketebalan cahaya bulan, dan umur bulan sejak konjungsi dalam UTC. Berikut ini adalah command untuk mendapatkan peta ketinggian bulan.
 
 ```ruby
 hl.map_moon_altitude()
 ```
 <img src="figures/moon_alt_Syawal_1444_2042023.png" width=900 height=450>
 
-Get the altitude difference between the moon and sun (arc of vision; ARCV):
+Mendapatkan peta ARCV (beda tinggi bulan dan matahari)
 
 ```ruby
 hl.map_moon_sun_altitude_difference()
 ```
 <img src="figures/moon_arcv_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon topocentric elongation:
+Mendapatkan peta elongasi topocentris 
 
 ```ruby
 hl.map_moon_elongation()
 ```
 <img src="figures/moon_elong_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon geocentric elongation:
+Mendapatkan peta elongasi geocentris
 
 ```ruby
 hl.map_moon_geocentric_elongation()
 ```
 <img src="figures/moon_elong_geo_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon angular width:
+Mendapatkan peta ketebalan cahaya bulan
 
 ```ruby
 hl.map_moon_width()
 ```
 <img src="figures/moon_width_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon age (from conjunction up to local sunset time) in UTC:
+Dan mendapatkan peta umur bulan dalam UTC.
 
 ```ruby
 hl.map_moon_age_utc_localsunset()
 ```
 <img src="figures/moon_age_utc_Syawal_1444_2042023.png" width=900 height=450>
 
-### 3. Get map of crescent vibility based on various criteria
-There are 6 criteria currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub. The list of criteria can be access using function `list_hilal_visibility_criteria`. Not all of them are crescent visibility criteria. Wujudul Hilal and Ijtima Qobla Ghurub were not intended for predicting the vibility of hilal. The Wujudul Hilal is currently (as of 2023) used by Muhammadiyah organization in Indonesia to calculate their Hijri calendar.
+### 3. Medapatakan peta visibilitas hilal berdasarkan berbagai kriteria
 
-#### 3.1. Crescent vibility map based on MABIMS criterion
-This citeria is currently (since 2022) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam. Based on this criteria, hilal is observable if its altitude (i.e., height above the horizon) is greater than 3 degree and its geocentric elongation (i.e., angular distance between moon and sun as measured from hyphotetical position at the center of the earth) is greater than 6.4 degree. 
+Ada enam kriteria yang saat ini tersedia di AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub. Daftar kriteria ini dapat dilihat dengan memanggil fungsi `list_hilal_visibility_criteria`. Sebenernya tidak semua kriteri tersebut adalah kriteria visibilitas hilal (imkanurrukyat). Kriteria Wujudul Hilal and Ijtima Qobla Ghurub tidak diperuntukkan untuk memprediksikan ketampakan hilal. Kriteria Wujudul Hilal saat ini digunakan oleh PP Muhammadiyah di Indonesia untuk menghitung kalender Hijriah.  
+
+#### 3.1. Peta ketampakan hilal berdasarkan kriteria MABIMS
+
+Kriteria ini saat ini digunakan oleh pemerintah (Kementerian Agama) Indonesia, Malaysia, Singapura, dan Brunei Darussalam. Berdasarkan kriteria ini, hilal dapat teramati jika ketinggianya melebihi 3 derajat dan elongasi geocentris nya melebihi 6.4 derajat.
+
 ```ruby
 hl.map_hilal_visibility('MABIMS')
 ```
 <img src="figures/map_mabims_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.2. Crescent visibility map based on Odeh criterion
-This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy. This criteria is formulated based on 737 observations and parameterized by the crescent width (proportional to moon topocentric elongation) and arc of vision (ARCV; the altitude difference between moon and sun).  
+
+Kriteria ini diusulkan oleh Mohammad Odeh dalan paper beliau [Odeh et al. (2016)](https://link.springer.com/article/10.1007/s10686-005-9002-5) yang dipublikasikan oleh Journal of Experimantal Astronomy. Kriteria ini disusun berdasarkan data observasi sebanyak 737 dan menggunakan parameter ketebalan cahaya bulan (yang setara dengan elongasi) dan beda tinggi bulan dan matahari (ARCV).
+
 ```ruby 
 hl.map_hilal_visibility('Odeh')
 ```
 <img src="figures/map_odeh_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.3. Crescent visibility map based on Terkey criterion
-This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 ([news](https://www.dailysabah.com/turkey/2016/05/31/islamic-scholars-agree-on-a-shared-lunar-calendar-for-muslim-world)) to be the criterion for the unified Hijri calendar. See the full description of the criterion [here](https://github.com/accuhijri/accuhijri.github.io/blob/main/figures/turkey_criterion.png). Basically, this is formed from a crescent visibility criterion with two additional requirements (conditions). The hilal visibility criterion stated that hilal is observable if its altitude is greater than 5 degree and its topocentric elongation (angular distance between moon and sun as seen from the surface of the earth) is greater than 8 degree. The two additional conditions are: (1) the observability of hilal (as formulated above) happens in a region where the local sunset precedes midnight (00:00) at GMT; (2) conjunction happen before Fajr time in New Zealand.       
+
+Kriteria ini diusulkan dalam International Hijri Calendar Union Congress in Istanbul in 2016 ([news](https://www.dailysabah.com/turkey/2016/05/31/islamic-scholars-agree-on-a-shared-lunar-calendar-for-muslim-world)) untuk digunakan sebagai kriteria tunggal penanggalan hijriah global. Deskripsi lengkap kriteria ini dapat dilihat di [sini](https://github.com/accuhijri/accuhijri.github.io/blob/main/figures/turkey_criterion.png). Pada dasarnya, kriteria ini dibentuk dari kriteria visibilitas hilal dengan tambahan dua syarat (kondisi). Kriteria visibilitas hilalnya adalah tinggi hilal minimal 5 derajat dan elongasi topocentris minimal 8 derajat. Dua syarat tambahannya adalah: (1) kondisi hilal untuk dapat dilihat (berdasarkan rumus di atas) harus terjadi di suatu tempat di bumi dimana waktu sunset lokal lebih awal dibandingkan dengan waktu tegah malam (perhantian hari kalender Masehi) 00:000 GMT.; dan (2) konjungsi terjadi sebelum waktu fajar di Selandia Baru.    
+
 ```ruby
 hl.map_hilal_visibility('Turkey')
 ```
 <img src="figures/map_turkey_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.4. Crescent visibility map based on Danjon limit
-Based on this criteria, only hilal that has an elongation (angular distance between moon and sun) greater than 7 degree would be possible to be observed.
+
+Berdasarkan kriteria ini, hilal dapat dilihat jika elongasinya melebihi 7 derajat.
 
 ```ruby
 hl.map_hilal_visibility('Danjon')
@@ -159,7 +172,9 @@ hl.map_hilal_visibility('Danjon')
 <img src="figures/map_danjon_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.5. Cresecent map based on Wujudul Hilal criterion
-Baseon on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
+
+Berdasarkan kriteria ini, bulan baru dapat dimulai jika konjungsi telah terjadi dan bulan terbenam setelah matahari terbenam.
+
 ```ruby
 hl.map_hilal_visibility('Wujudul Hilal')
 
@@ -167,7 +182,8 @@ hl.map_hilal_visibility('Wujudul Hilal')
 <img src="figures/map_wh_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.6. Map of Ijtima Qobla Ghurub
-Based on this criteria, a new month can be started after maghrib when the conjunction occur before sunset.
+
+Berdasarkan kriteria ini, bulan baru dapat dimulai (setelah maghrib) jika konjungsi terjadi sebelum matahari terbenam.
 ```ruby
 hl.map_hilal_visibility('Ijtima Qobla Ghurub')
 ```
