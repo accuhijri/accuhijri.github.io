@@ -68,7 +68,7 @@ plus_1day = True
 hl = hilal(hijri_year=hijri_year, hijri_month=hijri_month, calculate_maps=calculate_maps, plus_1day=plus_1day)
 ```
 
-`calculate_hilal_data` function can be used to get hilal data at sunset time on the day of conjunction. It's also possible to calculate hilal data for other days after the conjunction. List of available time-zone can be seen [here](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
+`calculate_hilal_data` function can be used to get hilal data at sunset time on the day of conjunction. It's also possible to calculate hilal data for other days after the conjunction by adjusting `delta_day` input parameter. List of available time-zone can be seen [here](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
 
 ```ruby
 # location and time-zone
@@ -142,7 +142,7 @@ hl.map_hilal_visibility('Odeh')
 <img src="figures/map_odeh_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.3. Crescent visibility map based on Terkey criterion
-This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 to be the criteria for the unified Hijri calendar.  
+This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 ([news](https://www.dailysabah.com/turkey/2016/05/31/islamic-scholars-agree-on-a-shared-lunar-calendar-for-muslim-world)) to be the criterion for the unified Hijri calendar. See the full description of the criterion [here](https://github.com/accuhijri/accuhijri.github.io/blob/main/figures/turkey_criterion.png). Basically, this is formed from a crescent visibility criterion with two additional requirements (conditions). The hilal visibility criterion stated that hilal is observable if its altitude is greater than 5 degree and its topocentric elongation (angular distance between moon and sun as seen from the surface of the earth) is greater than 8 degree. The two additional conditions are: (1) the observability of hilal (as formulated above) happens in a region where the local sunset precedes midnight (00:00) at GMT; (2) conjunction happen before Fajr time in New Zealand.       
 ```ruby
 hl.map_hilal_visibility('Turkey')
 ```
@@ -156,7 +156,7 @@ hl.map_hilal_visibility('Danjon')
 ```
 <img src="figures/map_danjon_Syawal_1444_2042023.png" width=900 height=450>
 
-#### 3.5. Crescent visibility map based on Wujudul Hilal criterion
+#### 3.5. Cresecent map based on Wujudul Hilal criterion
 Baseon on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
 ```ruby
 hl.map_hilal_visibility('Wujudul Hilal')
@@ -164,3 +164,9 @@ hl.map_hilal_visibility('Wujudul Hilal')
 ```
 <img src="figures/map_wh_Syawal_1444_2042023.png" width=900 height=450>
 
+#### 3.6. Map of Ijtima Qobla Ghurub
+Based on this criteria, a new month can be started after maghrib when the conjunction occur before sunset.
+```ruby
+hl.map_hilal_visibility('Ijtima Qobla Ghurub')
+```
+<img src="figures/map_IQG_Syawal_1444_2042023.png" width=900 height=450>
