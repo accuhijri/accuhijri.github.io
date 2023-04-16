@@ -4,7 +4,7 @@ title: Accurate Hijri Calculator (AHC)
 description: A tool for calculating Islamic Lunar Calendar
 ---
 
-[**Kembali**](./)
+[**Kembali ke halaman depan**](./)
 
 <img align="center" src="figures/ahc_logo.png" width=220 height=200>
 
