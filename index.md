@@ -125,7 +125,7 @@ hl.map_moon_age_utc_localsunset()
 <img src="figures/moon_age_utc_Syawal_1444_2042023.png" width=900 height=450>
 
 ### 3. Get map of crescent vibility based on various criteria
-There are 6 criteria that are currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub.
+There are 6 criteria currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub. The list of criteria can be access using function `list_hilal_visibility_criteria`. Not all of them are crescent visibility criteria. Wujudul Hilal and Ijtima Qobla Ghurub were not intended for predicting the vibility of hilal. The Wujudul Hilal is currently (as of 2023) used by Muhammadiyah organization in Indonesia to calculate their Hijri calendar.
 
 #### 3.1. Crescent vibility map based on MABIMS criteria
 This citeria is currently (as of 2023) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam.
@@ -147,3 +147,11 @@ This criteria is proposed by the International Hijri Calendar Union Congress in 
 hl.map_hilal_visibility('Turkey')
 ```
 <img src="figures/map_turkey_Syawal_1444_2042023.png" width=900 height=450>
+
+#### 3.4. Crescent visibility map based on Danjon limit
+Based on this criteria, only hilal that has an elongation (angular distance between moon and sun) greater than 7 degree would be possible to be observed.
+
+```ruby
+hl.map_hilal_visibility('Danjon')
+```
+<img src="figures/map_danjon_Syawal_1444_2042023.png" width=900 height=450>
