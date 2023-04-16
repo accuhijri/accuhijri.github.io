@@ -127,21 +127,21 @@ hl.map_moon_age_utc_localsunset()
 ### 3. Get map of crescent vibility based on various criteria
 There are 6 criteria currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub. The list of criteria can be access using function `list_hilal_visibility_criteria`. Not all of them are crescent visibility criteria. Wujudul Hilal and Ijtima Qobla Ghurub were not intended for predicting the vibility of hilal. The Wujudul Hilal is currently (as of 2023) used by Muhammadiyah organization in Indonesia to calculate their Hijri calendar.
 
-#### 3.1. Crescent vibility map based on MABIMS criteria
+#### 3.1. Crescent vibility map based on MABIMS criterion
 This citeria is currently (as of 2023) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam.
 ```ruby
 hl.map_hilal_visibility('MABIMS')
 ```
 <img src="figures/map_mabims_Syawal_1444_2042023.png" width=900 height=450>
 
-#### 3.2. Crescent visibility map based on Odeh criteria
+#### 3.2. Crescent visibility map based on Odeh criterion
 This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy.
 ```ruby 
 hl.map_hilal_visibility('Odeh')
 ```
 <img src="figures/map_odeh_Syawal_1444_2042023.png" width=900 height=450>
 
-#### 3.3. Crescent visibility map based on Terkey criteria
+#### 3.3. Crescent visibility map based on Terkey criterion
 This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 to be the criteria for the unified Hijri calendar.
 ```ruby
 hl.map_hilal_visibility('Turkey')
@@ -155,3 +155,12 @@ Based on this criteria, only hilal that has an elongation (angular distance betw
 hl.map_hilal_visibility('Danjon')
 ```
 <img src="figures/map_danjon_Syawal_1444_2042023.png" width=900 height=450>
+
+#### 3.5. Crescent visibility map based on Wujudul Hilal criterion
+Baseon on this criteria, a new month can be started if moonset happen after sunset.
+```ruby
+hl.map_hilal_visibility('Wujudul Hilal')
+```
+<img src="figures/map_wh_Syawal_1444_2042023.png" width=900 height=450>
+
+
