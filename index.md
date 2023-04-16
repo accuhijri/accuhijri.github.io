@@ -83,42 +83,43 @@ hl.calculate_hilal_data(latitude, longitude, elevation, time_zone_str, loc_name=
 <img src="figures/hd1.png" width=700 height=500>
 
 ### 2. Get maps of moon positions 
-This include maps of moon altitude, longitude (topocentric and geocentric), moon-sun altitude difference (arc of vision; ARCV), moon width, and moon age. Below is a command to get the map of moon altitude.
+
+In addition to the hilal data above, we can also get maps of moon positions at sunset time. This include the maps of moon altitude, elongation (topocentric and geocentric), moon-sun altitude difference (arc of vision; ARCV), moon width, and moon age. Below is a command to get the map of moon altitude.
 
 ```ruby
 hl.map_moon_altitude()
 ```
 <img src="figures/moon_alt_Syawal_1444_2042023.png" width=900 height=450>
 
-Get the altitude difference between the moon and sun (arc of vision; ARCV):
+Get the map of altitude difference between the moon and sun (arc of vision; ARCV):
 
 ```ruby
 hl.map_moon_sun_altitude_difference()
 ```
 <img src="figures/moon_arcv_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon topocentric elongation:
+Get the map of moon topocentric elongation:
 
 ```ruby
 hl.map_moon_elongation()
 ```
 <img src="figures/moon_elong_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon geocentric elongation:
+Get the map of moon geocentric elongation:
 
 ```ruby
 hl.map_moon_geocentric_elongation()
 ```
 <img src="figures/moon_elong_geo_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon angular width:
+Get the map of moon angular width:
 
 ```ruby
 hl.map_moon_width()
 ```
 <img src="figures/moon_width_Syawal_1444_2042023.png" width=900 height=450>
 
-Get moon age (from conjunction up to local sunset time) in UTC:
+Get the map of moon age (from conjunction up to local sunset time) in UTC:
 
 ```ruby
 hl.map_moon_age_utc_localsunset()
@@ -126,9 +127,11 @@ hl.map_moon_age_utc_localsunset()
 <img src="figures/moon_age_utc_Syawal_1444_2042023.png" width=900 height=450>
 
 ### 3. Get map of crescent vibility based on various criteria
+
 There are 6 criteria currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub. The list of criteria can be access using function `list_hilal_visibility_criteria`. Not all of them are crescent visibility criteria. Wujudul Hilal and Ijtima Qobla Ghurub were not intended for predicting the vibility of hilal. The Wujudul Hilal is currently (as of 2023) used by Muhammadiyah organization in Indonesia to calculate their Hijri calendar.
 
 #### 3.1. Crescent vibility map based on MABIMS criterion
+
 This citeria is currently (since 2022) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam. Based on this criteria, hilal is observable if its altitude (i.e., height above the horizon) is greater than 3 degree and its geocentric elongation (i.e., angular distance between moon and sun as measured from hyphotetical position at the center of the earth) is greater than 6.4 degree. 
 ```ruby
 hl.map_hilal_visibility('MABIMS')
@@ -136,6 +139,7 @@ hl.map_hilal_visibility('MABIMS')
 <img src="figures/map_mabims_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.2. Crescent visibility map based on Odeh criterion
+
 This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy. This criteria is formulated based on 737 observations and parameterized by the crescent width (proportional to moon topocentric elongation) and arc of vision (ARCV; the altitude difference between moon and sun).  
 ```ruby 
 hl.map_hilal_visibility('Odeh')
@@ -143,6 +147,7 @@ hl.map_hilal_visibility('Odeh')
 <img src="figures/map_odeh_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.3. Crescent visibility map based on Terkey criterion
+
 This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 ([news](https://www.dailysabah.com/turkey/2016/05/31/islamic-scholars-agree-on-a-shared-lunar-calendar-for-muslim-world)) to be the criterion for the unified Hijri calendar. See the full description of the criterion [here](https://github.com/accuhijri/accuhijri.github.io/blob/main/figures/turkey_criterion.png). Basically, this is formed from a crescent visibility criterion with two additional requirements (conditions). The hilal visibility criterion stated that hilal is observable if its altitude is greater than 5 degree and its topocentric elongation (angular distance between moon and sun as seen from the surface of the earth) is greater than 8 degree. The two additional conditions are: (1) the observability of hilal (as formulated above) happens in a region where the local sunset precedes midnight (00:00) at GMT; (2) conjunction happen before Fajr time in New Zealand.       
 ```ruby
 hl.map_hilal_visibility('Turkey')
@@ -150,6 +155,7 @@ hl.map_hilal_visibility('Turkey')
 <img src="figures/map_turkey_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.4. Crescent visibility map based on Danjon limit
+
 Based on this criteria, only hilal that has an elongation (angular distance between moon and sun) greater than 7 degree would be possible to be observed.
 
 ```ruby
@@ -158,6 +164,7 @@ hl.map_hilal_visibility('Danjon')
 <img src="figures/map_danjon_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.5. Cresecent map based on Wujudul Hilal criterion
+
 Baseon on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
 ```ruby
 hl.map_hilal_visibility('Wujudul Hilal')
@@ -166,6 +173,7 @@ hl.map_hilal_visibility('Wujudul Hilal')
 <img src="figures/map_wh_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.6. Map of Ijtima Qobla Ghurub
+
 Based on this criteria, a new month can be started after maghrib when the conjunction occur before sunset.
 ```ruby
 hl.map_hilal_visibility('Ijtima Qobla Ghurub')
