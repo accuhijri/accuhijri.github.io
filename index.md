@@ -51,6 +51,7 @@ conda install -c conda-forge geopandas
 ## Some features
 
 ### 1. Calculate the data of hilal (i.e., crescent)
+
 In this example, we will estimate the start of Syawal 1444 based on various criteria currently adopted by moslem organizations around the world. Basically, to estimate the start of a new month in the Hijri calendar, we need to know the positions (with respect to the horizon) of moon (i.e., crescent) at the time of sunset after the conjunction of the moon (i.e., new moon phase).
 
 First, we initialize the `hilal` class. 
@@ -68,7 +69,7 @@ plus_1day = True
 hl = hilal(hijri_year=hijri_year, hijri_month=hijri_month, calculate_maps=calculate_maps, plus_1day=plus_1day)
 ```
 
-`calculate_hilal_data` function can be used to get hilal data at sunset time on the day of conjunction. It's also possible to calculate hilal data for other days after the conjunction by adjusting `delta_day` input parameter. List of available time-zone can be seen [here](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
+We can use `calculate_hilal_data` function to get hilal data at sunset time on the day of conjunction. It's also possible to calculate hilal data for other days after the conjunction by adjusting `delta_day` input parameter. To use this function, we need to input the coordinates of location and the time-zone. List of acceptable time-zone can be seen [here](https://github.com/accuhijri/ahc/blob/main/ahc/timezones.txt).
 
 ```ruby
 # location and time-zone
