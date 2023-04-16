@@ -25,7 +25,7 @@ Accurate Hijri Calculator (AHC) is a software for calculating the position and v
 | 1454 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 
 ## Developer
-This software is developed and maintained by [Abdurro'uf](https://aabdurrouf.github.io/), who is currently working as an astronomy researcher at the Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). Any feedback, inquiry, or bugs report can be sent via email to abdurroufastro@gmail.com or fabdurr1@jhu.edu. 
+This software is developed and maintained by [Abdurro'uf](https://aabdurrouf.github.io/), an Indonesian astronomer who is currently working as an astronomy researcher at the Department of Physics and Astronomy, The Johns Hopkins University and The Space Telescope Science Institute (STScI). Any feedback, inquiry, or bugs report can be sent via email to abdurroufastro@gmail.com or fabdurr1@jhu.edu. 
  
 ## Installation
 To install AHC, first clone AHC package into your desired directory (in your local machine) and then enter `ahc` directory and install. You can do it using the following commands 
