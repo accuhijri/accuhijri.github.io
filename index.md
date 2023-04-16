@@ -165,7 +165,7 @@ hl.map_hilal_visibility('Danjon')
 
 #### 3.5. Cresecent map based on Wujudul Hilal criterion
 
-Baseon on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
+Base on on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
 ```ruby
 hl.map_hilal_visibility('Wujudul Hilal')
 
