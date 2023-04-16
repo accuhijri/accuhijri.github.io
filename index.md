@@ -15,7 +15,7 @@ Accurate Hijri Calculator (AHC) is a software for calculating the position and v
 | 1444 | [calc](https://github.com/accuhijri/ahc_data/blob/main/data/1444/ahc_1444_muharram.ipynb),[img](https://drive.google.com/drive/folders/1zYkVQMOa3NGiazVDSOWb85z52_n_eR95?usp=share_link) | [calc](https://github.com/accuhijri/ahc_data/blob/main/data/1444/ahc_1444_shafar.ipynb),[img](https://drive.google.com/drive/folders/16I6oscehhZPpw4V4lcOJxF104SkAOcJ4?usp=share_link) | [calc](https://github.com/accuhijri/ahc_data/blob/main/data/1444/ahc_1444_rabiul_awwal.ipynb),[img](https://drive.google.com/drive/folders/19i0dPdBqMLSQSrRyTtSNgJLnKY0QxGsZ?usp=share_link) | [calc](https://github.com/accuhijri/ahc_data/blob/main/data/1444/ahc_1444_rabiuts_tsani.ipynb),[img](https://drive.google.com/drive/folders/1U6EGoq0uhBzrKN7XuJdeE9a5fk0_UxR_?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1PE64o4rZLcGHUbV-zYpEwXU6AoRMHxd4?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1lqjBs2j6Jegxxb7iXdbFI1dgnlOgs8sH?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1uzQuJuh2XWdBiQMpRbeTkDsYtyxD8FYl?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1LQ9a_EqBWSRfcXqD70xCmOvgTMFby0f-?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1BxhzrKRUY9LC-M9X8bot029Y9LBlUAY9?usp=share_link) | [calc](https://github.com/accuhijri/ahc_data/blob/main/data/1444/ahc_1444_syawal.ipynb),[img](https://drive.google.com/drive/folders/1HJVd3tzOU1wYk0vMx5KKDu1g_-K0akGi?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1Yr_DVf5f3MPekS8awHBNTM-c4V2xwJde?usp=share_link)  | calc,[img](https://drive.google.com/drive/folders/15sPUuSIYRw3_wZZ9EeHEblyLDlbH0JPQ?usp=share_link) |
 | 1445 | calc,[img](https://drive.google.com/drive/folders/1KwxPBD79-ucOLYsONEzDOSGFW9wcYg4n?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1X1cx5Maz18IefIcj7ppQgdZZBZC3dJxX?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1S9jamUTfLFEINK2vv1XRrUgiJLv0BsV2?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1l0taOKxoYTIQlb-Ts0W3mSqk7bQRix1s?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1_QhY13-3qaaVih7m_JyXNqiHjllraJc6?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1Y0eDvwk0Ijj1RIGwHdkFUatTwHEyApsP?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/18PXSM2pY0iX78jllS61prIZrTT2tWY73?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1YbEHFdj3tXchRm_TFkyK1ZecC5lt4kdy?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1giCQERl9YrmXAYyK04rsFUYghqAAcaBn?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1tWnsV4FxZwLM2N7vxdvrFi0Tg3tHOt1n?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1vJ4fZvexbqFNH9Our2R4rpLFb5CssuqH?usp=share_link)  | calc,[img](https://drive.google.com/drive/folders/1XOvbGcjH17e4K4bvOHGi4Z-BqHA8SXBp?usp=share_link) |
 | 1446 | calc,[img](https://drive.google.com/drive/folders/1qe6xR2nug1vr_2B-5WAw-jPeARKDgiKZ?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1QdnfBXwE3V1WvCG7_HY1akOslaNNANsP?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1SO4uZeRSeyY-zaEga6Sud8CSPM5wYiB7?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1kJtwROuzBHTx6DHy1SnckgaOt-jCkFZq?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1k5FroXIdFLAoNRmQHigq6fFPf9Up0sse?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1HM-jYGALF1obJiLAJEfyTtU1oajPIVDp?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1GsOKssvGCY_zqM3og-7L47MZuXDOL2BD?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1xRpDdRU4C2f6Nx-VHfhKQl9nDpMT2lWZ?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1Tok9S7o2D61zZEsExZBTOMsMQyXjdF7V?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1KI6jMGy352zG2hedCKzksTmJ4XDYHvL6?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1MZY9EOiXljwjt8ElrTQanUlmVgPyxPRE?usp=share_link)  | calc,[img](https://drive.google.com/drive/folders/1_v_yWDoP0phN7Ci5bvdDzDkzZAJxu7KJ?usp=share_link) |
-| 1447 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
+| 1447 | calc,[img](https://drive.google.com/drive/folders/1fP0fDUBz5WuUUVDpA6S4c6cy4yl_Y3P6?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1rmbHkqze8ZdQO17-_eDipVHKLZRn6gvC?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/12BPW7R3WX0LuzGDRMZuI40j-wUR4xewm?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1wsHhzdKB43-WzG84rbd_2TDYIQBlt2Oz?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1LE0pg7exJ3nLVK0ztUlYN86OsoZGJqck?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1kN-NckYxFd1cqtJNLNBfiulw-Ocv6kB9?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/14xe9Xalyr6ITUySCJllyK3cEfEvqUNDl?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1qDI0pTxTxfaXBHNc-YYSwCnFAhGgrSbu?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1njfM6M6_wDvlFpJ8VDBLUkQB4DunFP7S?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/1xRBTMPPkcD-EGjnKgz1ezR0BNDkU4T0g?usp=share_link) | calc,[img](https://drive.google.com/drive/folders/11yaWHoQ_3uEweFK_BRMvYGYfHtY1WvVg?usp=share_link)  | calc,[img](https://drive.google.com/drive/folders/1HQXCBKrQgNGQE66n9VB0ObsS0yx9HTcG?usp=share_link) |
 | 1448 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 | 1449 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
 | 1450 | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img | calc,img  | calc,img |
@@ -128,21 +128,21 @@ hl.map_moon_age_utc_localsunset()
 There are 6 criteria currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Turkey, Danjon, and Itjima Qobla Ghurub. The list of criteria can be access using function `list_hilal_visibility_criteria`. Not all of them are crescent visibility criteria. Wujudul Hilal and Ijtima Qobla Ghurub were not intended for predicting the vibility of hilal. The Wujudul Hilal is currently (as of 2023) used by Muhammadiyah organization in Indonesia to calculate their Hijri calendar.
 
 #### 3.1. Crescent vibility map based on MABIMS criterion
-This citeria is currently (as of 2023) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam.
+This citeria is currently (since 2022) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam. Based on this criteria, hilal is observable if its altitude (i.e., height above the horizon) is greater than 3 degree and its geocentric elongation (i.e., angular distance between moon and sun as measured from hyphotetical position at the center of the earth) is greater than 6.4 degree. 
 ```ruby
 hl.map_hilal_visibility('MABIMS')
 ```
 <img src="figures/map_mabims_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.2. Crescent visibility map based on Odeh criterion
-This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy.
+This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy. This criteria is formulated based on 737 observations and parameterized by the crescent width (proportional to moon topocentric elongation) and arc of vision (ARCV; the altitude difference between moon and sun).  
 ```ruby 
 hl.map_hilal_visibility('Odeh')
 ```
 <img src="figures/map_odeh_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.3. Crescent visibility map based on Terkey criterion
-This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 to be the criteria for the unified Hijri calendar.
+This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 to be the criteria for the unified Hijri calendar.  
 ```ruby
 hl.map_hilal_visibility('Turkey')
 ```
@@ -157,10 +157,10 @@ hl.map_hilal_visibility('Danjon')
 <img src="figures/map_danjon_Syawal_1444_2042023.png" width=900 height=450>
 
 #### 3.5. Crescent visibility map based on Wujudul Hilal criterion
-Baseon on this criteria, a new month can be started if moonset happen after sunset.
+Baseon on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
 ```ruby
 hl.map_hilal_visibility('Wujudul Hilal')
+
 ```
 <img src="figures/map_wh_Syawal_1444_2042023.png" width=900 height=450>
-
 
