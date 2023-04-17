@@ -132,7 +132,7 @@ There are 6 criteria currently available in AHC: MABIMS, Odeh, Wujudul Hilal, Tu
 
 #### 3.1. Crescent vibility map based on MABIMS criterion
 
-This citeria is currently (since 2022) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam. Based on this criteria, hilal is observable if its altitude (i.e., height above the horizon) is greater than 3 degree and its geocentric elongation (i.e., angular distance between moon and sun as measured from hyphotetical position at the center of the earth) is greater than 6.4 degree. 
+This citerion is currently (since 2022) used by the goverments of Indonesia, Malaysia, Singapore, and Brunei Darussalam. Based on this criterion, hilal is observable if its altitude (i.e., height above the horizon) is greater than 3 degree and its geocentric elongation (i.e., angular distance between moon and sun as measured from hyphotetical position at the center of the earth) is greater than 6.4 degree. 
 ```ruby
 hl.map_hilal_visibility('MABIMS')
 ```
@@ -140,7 +140,7 @@ hl.map_hilal_visibility('MABIMS')
 
 #### 3.2. Crescent visibility map based on Odeh criterion
 
-This criteria is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy. This criteria is formulated based on 737 observations and parameterized by the crescent width (proportional to moon topocentric elongation) and arc of vision (ARCV; the altitude difference between moon and sun).  
+This criterion is proposed by Mohammad Odeh in his 2016 [paper](https://link.springer.com/article/10.1007/s10686-005-9002-5) published in the Journal of Experimantal Astronomy. This criterion is formulated based on 737 observations and parameterized by the crescent width (proportional to moon topocentric elongation) and arc of vision (ARCV; the altitude difference between moon and sun).  
 ```ruby 
 hl.map_hilal_visibility('Odeh')
 ```
@@ -148,7 +148,7 @@ hl.map_hilal_visibility('Odeh')
 
 #### 3.3. Crescent visibility map based on Terkey criterion
 
-This criteria is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 ([news](https://www.dailysabah.com/turkey/2016/05/31/islamic-scholars-agree-on-a-shared-lunar-calendar-for-muslim-world)) to be the criterion for the unified Hijri calendar. See the full description of the criterion [here](https://github.com/accuhijri/accuhijri.github.io/blob/main/figures/turkey_criterion.png). Basically, this is formed from a crescent visibility criterion with two additional requirements (conditions). The hilal visibility criterion stated that hilal is observable if its altitude is greater than 5 degree and its topocentric elongation (angular distance between moon and sun as seen from the surface of the earth) is greater than 8 degree. The two additional conditions are: (1) the observability of hilal (as formulated above) happens in a region where the local sunset precedes midnight (00:00) at GMT; (2) conjunction happen before Fajr time in New Zealand.       
+This criterion is proposed by the International Hijri Calendar Union Congress in Istanbul in 2016 ([news](https://www.dailysabah.com/turkey/2016/05/31/islamic-scholars-agree-on-a-shared-lunar-calendar-for-muslim-world)) to be the criterion for the unified Hijri calendar. See the full description of the criterion [here](https://github.com/accuhijri/accuhijri.github.io/blob/main/figures/turkey_criterion.png). Basically, this is formed from a crescent visibility criterion with two additional requirements (conditions). The hilal visibility criterion stated that hilal is observable if its altitude is greater than 5 degree and its topocentric elongation (angular distance between moon and sun as seen from the surface of the earth) is greater than 8 degree. The two additional conditions are: (1) the observability of hilal (as formulated above) happens in a region where the local sunset precedes midnight (00:00) at GMT; (2) conjunction happen before Fajr time in New Zealand.       
 ```ruby
 hl.map_hilal_visibility('Turkey')
 ```
@@ -156,7 +156,7 @@ hl.map_hilal_visibility('Turkey')
 
 #### 3.4. Crescent visibility map based on Danjon limit
 
-Based on this criteria, only hilal that has an elongation (angular distance between moon and sun) greater than 7 degree would be possible to be observed.
+Based on this criterion, only hilal that has an elongation (angular distance between moon and sun) greater than 7 degree would be possible to be observed.
 
 ```ruby
 hl.map_hilal_visibility('Danjon')
@@ -165,7 +165,7 @@ hl.map_hilal_visibility('Danjon')
 
 #### 3.5. Cresecent map based on Wujudul Hilal criterion
 
-Base on on this criteria, a new month can be started if conjunction has happen and moonset happen after sunset.
+Base on on this criterion, a new month can be started if conjunction has happen and moonset happen after sunset.
 ```ruby
 hl.map_hilal_visibility('Wujudul Hilal')
 
@@ -174,7 +174,7 @@ hl.map_hilal_visibility('Wujudul Hilal')
 
 #### 3.6. Map of Ijtima Qobla Ghurub
 
-Based on this criteria, a new month can be started after maghrib when the conjunction occur before sunset.
+Based on this criterion, a new month can be started after maghrib when the conjunction occur before sunset.
 ```ruby
 hl.map_hilal_visibility('Ijtima Qobla Ghurub')
 ```
