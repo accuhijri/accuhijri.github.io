@@ -8,7 +8,7 @@ description: A tool for calculating Islamic Lunar Calendar
 
 <img align="center" src="figures/ahc_logo.png" width=220 height=200>
 
-Accurate Hijri Calculator (AHC) adalah software yang dapat digunakan untuk menghitung posisi dan kemungkinan ketampakan hilal (kemungkinan untuk hilal berhasil dirukyat) saat waktu matahari terbenam (maghrib) setelah fase konjungsi bulan (new moon atau ijtima') telah terjadi. Hal ini digunakan sebagai patokan dalam penentuan awal bulan di kalender Hijriah. Software ini dibuat bertujuan untuk membantu umat muslim dalam memperkirakan kapan permulaan bulan hijriah, membuat kalender untuk beberapa tahun ke depan, membandingkan berbagai kriteria penentuan awal bulan hijriah, dan sebagai bahan edukasi kepada masyarakan awam tentang isu-isu terkait kalender hijriah sekarang. Software ini mengakomodasi berbagai kriteria visibilitas hilal (dalam metode hisab imkanurrukyat) yang sekarang digunakan oleh beberapa organisasi muslim di dunia. AHC pertama kami dikembangkan di tahun 2012 dan dipublikasikan di [link](https://fi.ub.ac.id/kemahasiswaan-alumni/keorganisasian/tim-astronomi-fisika/accurate-hijri-calculator-2-2/). Berbeda dengan versi partamanya yang dibuat dengan Graphical User Interface (GUI) menggunakan Delphi, sekarang AHC bertransformasi menjadi Python package yang dapat dijalankan (dipanggil) di terminal (Linux and Windows) tanpa tampilan GUI. Akan tetapi, kita bisa menjalankan AHC dengan [Jupyter notebook](https://jupyter.org/) untuk mendapatkan tampilan interaktif layaknanya GUI seperti yang dicontohkan dalam **tutorial** [berikut](https://github.com/accuhijri/ahc/blob/main/examples/ahc_1444_syawal.ipynb).     
+Accurate Hijri Calculator (AHC) adalah software yang dapat digunakan untuk menghitung posisi dan kemungkinan ketampakan hilal (kemungkinan untuk hilal berhasil dirukyat) saat waktu matahari terbenam (maghrib) setelah fase konjungsi bulan (new moon atau ijtima') telah terjadi. Hal ini digunakan sebagai patokan dalam penentuan awal bulan di kalender Hijriah. Software ini dibuat bertujuan untuk membantu umat muslim dalam memperkirakan kapan permulaan bulan hijriah, membuat kalender untuk beberapa tahun ke depan, membandingkan berbagai kriteria penentuan awal bulan hijriah, dan sebagai bahan edukasi kepada masyarakat awam tentang isu-isu terkait kalender hijriah saat ini. Software ini mengakomodasi berbagai kriteria visibilitas hilal (dalam metode hisab imkanurrukyat) yang sekarang digunakan oleh beberapa organisasi muslim di dunia. AHC pertama kami dikembangkan di tahun 2012 dan dipublikasikan di [link](https://fi.ub.ac.id/kemahasiswaan-alumni/keorganisasian/tim-astronomi-fisika/accurate-hijri-calculator-2-2/). Berbeda dengan versi partamanya yang dibuat dengan Graphical User Interface (GUI) menggunakan Delphi, sekarang AHC bertransformasi menjadi Python package yang dapat dijalankan (dipanggil) di terminal (Linux and Windows) tanpa tampilan GUI. Akan tetapi, kita bisa menjalankan AHC dengan [Jupyter notebook](https://jupyter.org/) untuk mendapatkan tampilan interaktif layaknanya GUI seperti yang dicontohkan dalam **tutorial** [berikut](https://github.com/accuhijri/ahc/blob/main/examples/ahc_1444_syawal.ipynb).     
 
 ## Download hasil perhitungan
 
@@ -40,13 +40,13 @@ cd ahc
 python -m pip install .
 ```
 
-Untuk dapat menggunakan AHC, anda perlu menempatkan file `de421.bsp` di directory tempat kamu bekerja. File ini sudah termasuk dalam `ahc` package dan dapat anda copy ke directory tersebut. Alternatif lain bisa mendownload file tersebut langsung dari website NASA dengan menggunakan command berikut. 
+Untuk dapat menggunakan AHC, anda perlu menempatkan file `de421.bsp` di directory tempat anda bekerja. File ini sudah termasuk dalam `ahc` package dan dapat dicopy ke directory tersebut. Alternatif lain bisa mendownload file tersebut langsung dari website NASA dengan menggunakan command berikut. 
 
 ```
 wget https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de421.bsp
 ```
 
-Terakhir, anda perlu menginstall [geopandas](https://geopandas.org/en/stable/) jika anda ingin membuat peta vibilitas hilal menggunakan AHC. Untuk menginstalnya, anda bisa menggunakan command berikut, dengan asumsi anda telah mempunyai `conda` terinstal di komputer anda.  
+Terakhir, anda perlu menginstall [geopandas](https://geopandas.org/en/stable/) jika ingin membuat peta vibilitas hilal menggunakan AHC. Untuk menginstalnya, anda bisa menggunakan command berikut, dengan asumsi anda telah mempunyai `conda` terinstal di komputer.  
 
 ```
 conda install -c conda-forge geopandas
